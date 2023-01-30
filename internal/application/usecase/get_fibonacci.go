@@ -1,6 +1,6 @@
 package usecase
 
-import "github.com/carloseduribeiro/go-exercice/internal/domain/entity"
+import "github.com/carloseduribeiro/go-exercise/internal/domain/entity"
 
 type GetFibonacciUseCase struct {
 }

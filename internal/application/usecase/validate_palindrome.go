@@ -1,6 +1,6 @@
 package usecase
 
-import "github.com/carloseduribeiro/go-exercice/internal/domain/entity"
+import "github.com/carloseduribeiro/go-exercise/internal/domain/entity"
 
 type ValidatePalindromeUseCase struct {
 }
@@ -18,6 +18,6 @@ func (v ValidatePalindromeUseCase) Execute(input string) ValidatePalindromeOutpu
 }
 
 type ValidatePalindromeOutputDto struct {
-	Sentence     string
-	IsPalindrome bool
+	Sentence     string `json:"sentence"`
+	IsPalindrome bool   `json:"isPalindrome"`
 }
